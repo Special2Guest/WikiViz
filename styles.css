@@ -1,0 +1,94 @@
+body{
+
+	background-image:url(http://upload.wikimedia.org/wikipedia/commons/d/de/Wikipedia_Logo_1.0.png); 
+	background-repeat:no-repeat; 
+	background-position:50%;
+	background-color:#EEE;
+}
+
+#wrapper{
+
+	margin-left:auto; 
+	margin-right:auto;
+	width:90%;
+
+}
+
+#header{
+
+	border:thin black solid; 
+	margin-bottom:20px;
+	background-color:#FFF;
+
+}
+
+#logo{
+	height:400px; 
+	background-color:#FFF;
+	border:thin black solid; 
+	margin-bottom:20px;
+
+}
+
+#search{
+
+	height:100px; 
+	background-color:#FFF;
+	border:thin black solid; 
+	margin-bottom:20px; 
+	text-align:center;
+}
+
+#status{
+	height:100px; 
+	background-color:#FFF;
+	border:thin black solid; 
+	margin-bottom:20px; 
+	text-align:center;
+}
+
+#leftbar{
+	width:25%;
+	float:left;		
+}
+
+#leftbar .logo{
+	height:150px;
+	margin-bottom:20px;
+	border:thin solid black;
+	background-color: #FFF;
+}
+#leftbar .restart{
+	height:50px;
+	margin-bottom:20px;
+	border:thin solid black;
+	background-color: #FFF;
+}
+#leftbar .history{
+	height:350px;
+	margin-bottom:20px;
+	border:thin solid black;
+	background-color: #FFF;
+}
+
+#rightbar{
+	width:70%;
+	float:right;	
+}
+
+#visualisation{
+	height:525px;
+	border:thin solid black;
+	background-color: #FFF;
+	margin-bottom:20px;
+}
+
+#rightbar .wikilink{
+	height:50px;
+	border:thin solid black;
+	background-color: #FFF;
+}
+
+.circle{
+	border:thin solid black;
+}
